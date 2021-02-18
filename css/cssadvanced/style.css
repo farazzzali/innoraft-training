@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.container {
+  float: left;
+  width: 100%;
+}
+
+.button {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #06a3cc;
+}
+
+.button:hover {
+  color: white;
+  background: black;
+}
+
+.button.selected {
+  color: white;
+  background: black;
+}
+
+.form-input {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+  background: #f8a549;
+  border: 0.2px solid white;
+}
+
+.form-select {
+  background: url("./darrow.png") no-repeat right #f8a549;
+  appearance: none;
+  background-position-x: 570px;
+  background-size: 20px;
+}
+
+.form-button {
+  width: 100px;
+  color: white;
+}
+
+.header {
+  background: #d9d9d9;
+}
+
+.header .logo {
+  margin-left: 100px;
+  width: 70px;
+}
+
+.header .nav {
+  float: right;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.header .nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.banner {
+  background: #06a3cc;
+  padding: 150px 0px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.banner h1 {
+  margin: 0px;
+  font-size: 64px;
+  position: absolute;
+  top: 45%;
+  left: 44%;
+}
+
+.banner .left-arrow {
+  background: url("./arrow.png");
+  height: 42px;
+  width: 32px;
+  position: absolute;
+  transform: rotate(180deg);
+  left: 100px;
+  top: 45%;
+}
+
+.banner .right-arrow {
+  background: url("./arrow.png");
+  height: 42px;
+  width: 32px;
+  position: absolute;
+  right: 100px;
+  top: 45%;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 2000px;
+  margin: auto;
+  clear: both;
+}
+
+.content-wrapper {
+  max-width: 2000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content {
+  float: left;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.content .content-left {
+  float: left;
+  padding-left: 90px;
+  width: 40%;
+}
+
+.content .content-left .yellow-box {
+  background: #ffe469;
+  height: 500px;
+  border-right: 15px solid white;
+  position: relative;
+}
+
+.content .content-left .yellow-box .purple-box {
+  background: #d39ed6;
+  height: 350px;
+  width: 50%;
+  left: -50px;
+  top: 40px;
+  position: absolute;
+}
+
+.content .content-right {
+  box-sizing: border-box;
+  float: left;
+  padding-right: 90px;
+  width: 60%;
+}
+
+.content .content-right .orange-box {
+  background: #ed8719;
+  padding: 30px;
+  height: 300px;
+}
+
+.content .content-right .green-box {
+  background: #8ae33b;
+  height: 200px;
+  border-top: 15px solid white;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  background: #007694;
+  text-align: center;
+  color: white;
+  padding: 25px 0px;
+}
+
+.footer li {
+  display: inline;
+  border-right: 1px solid white;
+  padding: 0px 10px;
+}
+
+.footer li:last-child {
+  border: 0px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
